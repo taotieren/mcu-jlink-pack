@@ -1,0 +1,259 @@
+  <!--                   -->
+  <!-- Holtek -->
+  <!--                   -->
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52220" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00001000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00004000" Loader="Devices/Holtek/HT32F_Main_16K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52230" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00001000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00007C00" Loader="Devices/Holtek/HT32F_Main_31K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52231" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00001000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00008000" Loader="Devices/Holtek/HT32F_Main_32K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52241" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FC00" Loader="Devices/Holtek/HT32F_Main_63K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52243" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00010000" Loader="Devices/Holtek/HT32F_Main_64K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52253" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0001FC00" Loader="Devices/Holtek/HT32F_Main_127K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52331" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00001000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00008000" Loader="Devices/Holtek/HT32F_Main_32_5K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000200" Loader="Devices/Holtek/HT32F_OPT_0_5K.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52341" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FE00" Loader="Devices/Holtek/HT32F_Main_63_5K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000200" Loader="Devices/Holtek/HT32F_OPT_0_5K.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52342" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00010000" Loader="Devices/Holtek/HT32F_Main_64_5K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000200" Loader="Devices/Holtek/HT32F_OPT_0_5K.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52352" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0001FE00" Loader="Devices/Holtek/HT32F_Main_127_5K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000200" Loader="Devices/Holtek/HT32F_OPT_0_5K.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52344" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00010000" Loader="Devices/Holtek/HT32F_Main_64K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52354" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0001FC00" Loader="Devices/Holtek/HT32F_Main_127K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52357" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00020000" Loader="Devices/Holtek/HT32F_Main_128K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52367" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00008000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0003FC00" Loader="Devices/Holtek/HT32F_Main_255K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F54231 " Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00001000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00008000" Loader="Devices/Holtek/HT32F_Main_32K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F54241 " Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FC00" Loader="Devices/Holtek/HT32F_Main_63K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F54243 " Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00010000" Loader="Devices/Holtek/HT32F_Main_64K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F54253 " Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0001FC00" Loader="Devices/Holtek/HT32F_Main_127K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F57331" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00001000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00008000" Loader="Devices/Holtek/HT32F_Main_32K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F57341" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FC00" Loader="Devices/Holtek/HT32F_Main_63K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F57342" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00010000" Loader="Devices/Holtek/HT32F_Main_64K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F57352" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0001FC00" Loader="Devices/Holtek/HT32F_Main_127K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F50220" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00001000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00004000" Loader="Devices/Holtek/HT32F_Main_16K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F50230" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00001000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00007C00" Loader="Devices/Holtek/HT32F_Main_31K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F50231" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00001000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00008000" Loader="Devices/Holtek/HT32F_Main_32K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F50241" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FC00" Loader="Devices/Holtek/HT32F_Main_63K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F50343" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00003000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FC00" Loader="Devices/Holtek/HT32F_Main_63K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F52142" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FC00" Loader="Devices/Holtek/HT32F_Main_63K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F0008" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FC00" Loader="Devices/Holtek/HT32F_Main_63K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F65232 " Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00001000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00008000" Loader="Devices/Holtek/HT32F_Main_32K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F65230" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00001000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00008000" Loader="Devices/Holtek/HT32F_Main_32K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F65240" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FC00" Loader="Devices/Holtek/HT32F_Main_63K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F5826 " Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0001FE00" Loader="Devices/Holtek/HT32F_Main_127_5K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000200" Loader="Devices/Holtek/HT32F_OPT_0_5K.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F5828" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0001FC00" Loader="Devices/Holtek/HT32F_Main_127K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F59041" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FC00" Loader="Devices/Holtek/HT32F_Main_63K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F59741" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FC00" Loader="Devices/Holtek/HT32F_Main_63K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F0006" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0001FE00" Loader="Devices/Holtek/HT32F_Main_127_5K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000200" Loader="Devices/Holtek/HT32F_OPT_0_5K.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F61141 " Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FC00" Loader="Devices/Holtek/HT32F_Main_63K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F61352" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0001FE00" Loader="Devices/Holtek/HT32F_Main_127_5K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000200" Loader="Devices/Holtek/HT32F_OPT_0_5K.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F61355" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0001FE00" Loader="Devices/Holtek/HT32F_Main_127_5K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000200" Loader="Devices/Holtek/HT32F_OPT_0_5K.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F61356" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0001FE00" Loader="Devices/Holtek/HT32F_Main_127_5K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000200" Loader="Devices/Holtek/HT32F_OPT_0_5K.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F61357" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0001FE00" Loader="Devices/Holtek/HT32F_Main_127_5K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000200" Loader="Devices/Holtek/HT32F_OPT_0_5K.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F67741 " Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FC00" Loader="Devices/Holtek/HT32F_Main_63K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F12345" Core="JLINK_CORE_CORTEX_M3" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FC00" Loader="Devices/Holtek/HT32F_Main_63K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F12365" Core="JLINK_CORE_CORTEX_M3" WorkRAMAddr="0x20000000" WorkRAMSize="0x00010000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0003FC00" Loader="Devices/Holtek/HT32F_Main_255K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F12366" Core="JLINK_CORE_CORTEX_M3" WorkRAMAddr="0x20000000" WorkRAMSize="0x00020000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0003FC00" Loader="Devices/Holtek/HT32F_Main_255K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F12364" Core="JLINK_CORE_CORTEX_M3" WorkRAMAddr="0x20000000" WorkRAMSize="0x00020000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0003FC00" Loader="Devices/Holtek/HT32F_Main_255K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT32F22366" Core="JLINK_CORE_CORTEX_M3" WorkRAMAddr="0x20000000" WorkRAMSize="0x00020000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0003FC00" Loader="Devices/Holtek/HT32F_Main_255K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT50F32002 " Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00001000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x00007C00" Loader="Devices/Holtek/HT32F_Main_31K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HT50F32003 " Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00004000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0001FE00" Loader="Devices/Holtek/HT32F_Main_127_5K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000200" Loader="Devices/Holtek/HT32F_OPT_0_5K.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+  <Device>
+   <ChipInfo Vendor="Holtek" Name="HF5032 " Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" />
+   <FlashBankInfo Name="Main Flash" BaseAddr="0x00000000" MaxSize="0x0000FC00" Loader="Devices/Holtek/HT32F_Main_63K.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" AlwaysPresent="1"/>
+   <FlashBankInfo Name="Opt Flash" BaseAddr="0x1FF00000" MaxSize="0x00000400" Loader="Devices/Holtek/HT32F_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  </Device>
+</DataBase>
