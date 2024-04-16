@@ -53,4 +53,5 @@ jlink-software-and-documentation >= 7.62
 yay -S mcu-jlink-pack
 yay -S holtek-jlink-pack
 yay -S hkmicrochip-jlink-pack
+yay -S airmcu-jlink-pack
 ```

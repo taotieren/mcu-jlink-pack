@@ -1,0 +1,3 @@
+[submodule "AirMCU-Jlink"]
+	path = AirMCU-Jlink
+	url = https://gitee.com/openLuat/AirMCU-Jlink.git
